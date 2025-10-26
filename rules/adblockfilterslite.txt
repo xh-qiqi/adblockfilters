@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20251026094637
-! Last modified: 2025/10/26 09:46:37
-! Blocked Filters: 42548
+! Version: 20251026162558
+! Last modified: 2025/10/26 16:25:58
+! Blocked Filters: 42554
 !
 ###AC_ad
 ###AD_160
@@ -25365,7 +25365,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||linkedin.com/inbox/compose/dialog$document
 @@||liulanmi.com/wp-content/uploads/*/StatCounter-
 @@||liumingye.cn^$generichide
-@@||livestreamgamess.blogspot.com^$generichide
 @@||livew.l.qq.com/livemsg?pf=H5&ad$domain=m.v.qq.com
 @@||lmjvideocdn.*-cdn.net/*.mp4?hash=$stealth=referrer,domain=letmejerk.com
 @@||logicool.co.jp^$content
@@ -26776,6 +26775,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||xvideos.*/models/$elemhide,jsinject,extension,xmlhttprequest
 @@||xvideos.*/pornstars/$elemhide,jsinject,extension,xmlhttprequest
 @@||xvideos.*/profiles/$elemhide,jsinject,extension,xmlhttprequest
+@@||xxxy.jnu.edu.cn/_upload/tpl/08/ad/2221/template2221/$script
 @@||yiqifa.com/ad_images/$~third-party
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
@@ -33464,9 +33464,6 @@ manoranjannama.com,sportsnama.in,naukrinama.com##.colombiaSuccess
 manoranjannama.com,sportsnama.in,naukrinama.com##.colombiatracked
 manoranjannama.com,sportsnama.in,naukrinama.com##div[class*="colombiaone"] a[href*="/can/evnt/click.htm?"][target="_blank"]
 manoranjannama.com,sportsnama.in,naukrinama.com#?#div[class*="colombiaone"] > div[class]:has(> div[class][id] > div > a[href*="/can/evnt/click.htm?"][target="_blank"])
-mansurfer.com##.footerbanner
-mansurfer.com##.headerbanner
-mansurfer.com##a[href*="/out/"]
 manualslib.es,manualslib.de,manualslib.com##.manualban
 manwa1.me,manwa2.me,manwa.me##.ad-area-close
 manwa1.me,manwa2.me,manwa.me##.swiper-container.swiper-container-horizontal
@@ -33873,7 +33870,6 @@ mwrf.net##.uc1_focus_pics
 mx-fm.com,ts.21cn.com#@#.ad_img
 mxdm.xyz$$script[tag-content="new Function(document["]
 mxdm9.com,ntdm9.com,mxdm6.com,ntdm6.com##[style$='background-size: 400px 127px !important;'],[style$='bottom: 127px;']
-my.yahoo.com##li[id^="ad-"]
 my0511.com###bbdcc
 my0511.com###dbdcc
 my0511.com###duilianleftdiv
@@ -34670,9 +34666,6 @@ pigai.org###newnotice
 pik.poznan.pl,piklodz.pl,pik.warszawa.pl,pik.krakow.pl,pik.katowice.pl,pikgdansk.pl,piktorun.pl,pik.wroclaw.pl,piklublin.pl##a[href^="https://clk.tradedoubler.com/"] > img
 pilot.wp.pl,kobieta.wp.pl,money.pl,tech.wp.pl,gry.wp.pl##div[class^="_"]> a[href][target="_blank"]:only-child > div[style^="position:"][style*="background-image: url"]
 pimpandhost.com,pornone.com##.iframe-container
-pincong.rocks##.a-a
-pincong.rocks##.aw-mod > a[target="_blank"]
-pincong.rocks#%#//scriptlet("prevent-setInterval", "Ad Block")
 pindao.hao123.com##.cmsad_wrapper
 pinflix.com,pornhd.com###inVidZone
 ping.chinaz.com##.sth > .col-red
@@ -35132,6 +35125,7 @@ qinzhou8.com##div[id^="v4ad-"]
 qiuquan.cc##.sidebar .aligncenter
 qiushibaike.com##.shopwindow
 qiushibaike.com##div.shopwindow
+qiuw.com##.con > a:nth-child(n+2)
 qiuziti.com##.popularize
 qiuziti.com##.search_wordimg
 qiuziti.com##a[href^="https://www.hellofont.cn/"] > img
@@ -35264,6 +35258,20 @@ qunar.com##.list_promotion_bar
 qxfun.com###beautiful-things
 qxfun.com###reward-me > figure:nth-child(n+2)
 qyer.com###zpui-head-ad
+qz.com###marquee-ad
+qz.com##.engage-slot
+qz.com##.js_sticky-second-scroll
+qz.com##.k3mqd
+qz.com##.lg\:block > div[class*="h-"][class*="calc"][class*="350px"][class*="4rem"]
+qz.com##.spotlight-slot
+qz.com##div[class*=":block"]:has(> .ay-ad-slot)
+qz.com##div[class*="my-"]:has(> .ay-ad-slot)
+qz.com##div[class="hidden md:block"]
+qz.com#$##main { padding-top: 0 !important; }
+qz.com#?##main > div[class*=" "] > div:has(> #marquee-ad)
+qz.com#?#.js_sticky-second-scroll ~ div[class^="sc-"] > div[class^="sc-"] > div[class]:has(> span:contains(Sponsored))
+qz.com#?#div[class^="sc-"]:-abp-has(> div[class="ad-unit"])
+qz.com#?#div[class^="sc-"]:-abp-has(> div[is="bulbs-dfp"])
 qzone.qq.com###QM_Container_100005
 qzone.qq.com###appCanvasRecentAppActivity > .activity-area
 qzone.qq.com###appCanvasRightBottomTips
@@ -36762,11 +36770,6 @@ torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.lol,torrentkitty.net,
 torkitty.com,torrentkitty.vip,torrentkitty.tv##a[href*=".affiliatescn.net/"]
 torquenews.com,robots.net,tel-no.com,pdfforge.org##body .adsense
 torrentdownloads.me,ftopx.com,flaticons.net##a[href^="https://goo.gl/"] > img
-torrentdownloads.pro###links_friends
-torrentdownloads.pro##.download > li > a[href^="/td/"] > img
-torrentdownloads.pro##img[src="/templates/new/images/titl_tag2.jpg"]
-torrentdownloads.pro#$#.download > li > a[href^="/td/"] > img { position: absolute !important; left: -3000px !important; }
-torrentdownloads.pro#?#.inner_container > div:has(> div[style="float:left"])
 torrentgalaxy.to,torrentgalaxy.mx##a[href*="?"][href*="="] img[data-src="bin"]
 torrentgalaxy.to,torrentgalaxy.mx##div[style="margin-bottom:10px;"] div > a > div > img
 torrentgalaxy.to,torrentgalaxy.mx##div[style="margin-top:10px;"] div > a > div > img
@@ -36965,6 +36968,7 @@ tvtv.ca,tvtv.us#$#.css-uc3mu7 { margin-top: 0 !important; height: 2400px !import
 tvtv.ca,tvtv.us#$#.gridRowPad { margin-top: 0 !important; }
 tvtv.ca,tvtv.us#%#//scriptlet('set-constant', 'paAddUnit', 'noopFunc')
 tvyun07.com,yemancomic.com,zkk78.com##div[style^="position:fixed;"]
+tw.bid.yahoo.com###livePromote
 tw.news.yahoo.com,tw.stock.yahoo.com##iframe[src^="https://tw.buy.yahoo.com/smartbanner/"]
 tw.yahoo.com,news.yahoo.com##div[id^="sda-"]
 tweaksforgeeks.com,thesaurus.net,cboard.net,joongdo.co.kr,viva100.com,thephoblographer.com,gamingdeputy.com,alle-tests.nl,maketecheasier.com,automobile-catalog.com,motorbikecatalog.com,jjang0u.com,interfootball.co.kr$$script[tag-content="KCgpPT57bGV0IGU"]
@@ -38294,6 +38298,7 @@ zzzyk.com###Tinfo
 ||1010pic.com/static/js/allpc.js
 ||1024wanzhai.
 ||1024wanzhai.$popup,third-party
+||102tv.cn/js/main.js
 ||107.167.16.*.gif
 ||107.167.22.*.gif
 ||10fang.com/static/skin/tfy/layer/layer.js
@@ -38765,7 +38770,6 @@ zzzyk.com###Tinfo
 ||aichuangfu.cn/jquery/
 ||ainunu.*/vad.js
 ||aisixiang.com/images/*-20
-||aitaotu.com/style/js/aitaotu
 ||aiviy.com/assets/js/union.js
 ||aixiaofan.cn/content/uploadfile/tpl_options//Ad_list_
 ||aiyangedu.com/static/cpt/pubuliu.
@@ -40183,7 +40187,6 @@ zzzyk.com###Tinfo
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaihaven.xxx^$referrerpolicy=origin
-||herogame.com^$subdocument,domain=gamer.com.tw
 ||hexun.*/hxpage/index.html
 ||hexun.com*/hx_news/hx_news_finalpage.js
 ||hexun.com/2017-11-07/191534592.jpg
@@ -40857,7 +40860,6 @@ zzzyk.com###Tinfo
 ||manomano.*/api/v1/sp-tracking/
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
 ||manqian.cn/async/adLocationConfig
-||mansurfer.com/flash_promo/
 ||map.baidu.com/newmap_test/static/common/images/transparent.gif
 ||map.baidu.com^$domain=laosiji.com
 ||mapi-log.qoo*.jp^
@@ -41363,6 +41365,7 @@ zzzyk.com###Tinfo
 ||qingqingxs.*/static/xbiquge/js/wap.
 ||qingqingxs.*/static/xbiquge/wap.js
 ||qinxue100.com/qinxue/pc/js/add_js.js
+||qiuw.com/static/xin-ad.js
 ||qiuyi.cn/Baojian/
 ||qixin007.com/webbanner/
 ||qixingquan.com/api.php?mod=ad&adid=
@@ -41549,6 +41552,8 @@ zzzyk.com###Tinfo
 ||s11.cn^$third-party
 ||s8.pw^$third-party
 ||safebeta.cn/gg/sefabeta_*js
+||salesmartly.com/client/log/
+||salesmartly.com/client/station/log?
 ||sam*.baby-kingdom.com^
 ||same*.stockstar.com^
 ||saohu*.com/config/json/cctv.json?
@@ -42430,6 +42435,7 @@ zzzyk.com###Tinfo
 ||yxdown.com/zt/zt/js/zt.js
 ||yxzp.net/left.js
 ||yywz123.com/file/A*.js
+||yzs.com/d/file/2020/06/21/5358e14b4556663a91f145f0635f95de.jpg
 ||yzz.cn/global_gg/
 ||zabdybod*.club^
 ||zahrvfbd*.xyz^
